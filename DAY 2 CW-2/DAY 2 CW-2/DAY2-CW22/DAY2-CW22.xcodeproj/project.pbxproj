@@ -7,34 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		382EEF4D2895EEC60089F8FB /* TOOMA1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF3D2895EEC40089F8FB /* TOOMA1App.swift */; };
-		382EEF4E2895EEC60089F8FB /* TOOMA1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF3D2895EEC40089F8FB /* TOOMA1App.swift */; };
-		382EEF4F2895EEC60089F8FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF3E2895EEC40089F8FB /* ContentView.swift */; };
-		382EEF502895EEC60089F8FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF3E2895EEC40089F8FB /* ContentView.swift */; };
-		382EEF512895EEC60089F8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382EEF3F2895EEC60089F8FB /* Assets.xcassets */; };
-		382EEF522895EEC60089F8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382EEF3F2895EEC60089F8FB /* Assets.xcassets */; };
-		382EEF5C289719DD0089F8FB /* CW2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF5B289719DD0089F8FB /* CW2.swift */; };
+		382EEF84289978210089F8FB /* DAY2_CW22App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF83289978210089F8FB /* DAY2_CW22App.swift */; };
+		382EEF86289978210089F8FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EEF85289978210089F8FB /* ContentView.swift */; };
+		382EEF88289978230089F8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382EEF87289978230089F8FB /* Assets.xcassets */; };
+		382EEF8B289978230089F8FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382EEF8A289978230089F8FB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		382EEF3D2895EEC40089F8FB /* TOOMA1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOOMA1App.swift; sourceTree = "<group>"; };
-		382EEF3E2895EEC40089F8FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		382EEF3F2895EEC60089F8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		382EEF442895EEC60089F8FB /* TOOMA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOOMA1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		382EEF4A2895EEC60089F8FB /* TOOMA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOOMA1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		382EEF4C2895EEC60089F8FB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		382EEF5B289719DD0089F8FB /* CW2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW2.swift; sourceTree = "<group>"; };
+		382EEF80289978210089F8FB /* DAY2-CW22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAY2-CW22.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		382EEF83289978210089F8FB /* DAY2_CW22App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAY2_CW22App.swift; sourceTree = "<group>"; };
+		382EEF85289978210089F8FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		382EEF87289978230089F8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		382EEF8A289978230089F8FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		382EEF412895EEC60089F8FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		382EEF472895EEC60089F8FB /* Frameworks */ = {
+		382EEF7D289978210089F8FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,99 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		382EEF372895EEC40089F8FB = {
+		382EEF77289978210089F8FB = {
 			isa = PBXGroup;
 			children = (
-				382EEF5B289719DD0089F8FB /* CW2.swift */,
-				382EEF3C2895EEC40089F8FB /* Shared */,
-				382EEF4B2895EEC60089F8FB /* macOS */,
-				382EEF452895EEC60089F8FB /* Products */,
+				382EEF82289978210089F8FB /* DAY2-CW22 */,
+				382EEF81289978210089F8FB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		382EEF3C2895EEC40089F8FB /* Shared */ = {
+		382EEF81289978210089F8FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				382EEF3D2895EEC40089F8FB /* TOOMA1App.swift */,
-				382EEF3E2895EEC40089F8FB /* ContentView.swift */,
-				382EEF3F2895EEC60089F8FB /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		382EEF452895EEC60089F8FB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				382EEF442895EEC60089F8FB /* TOOMA1.app */,
-				382EEF4A2895EEC60089F8FB /* TOOMA1.app */,
+				382EEF80289978210089F8FB /* DAY2-CW22.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		382EEF4B2895EEC60089F8FB /* macOS */ = {
+		382EEF82289978210089F8FB /* DAY2-CW22 */ = {
 			isa = PBXGroup;
 			children = (
-				382EEF4C2895EEC60089F8FB /* macOS.entitlements */,
+				382EEF83289978210089F8FB /* DAY2_CW22App.swift */,
+				382EEF85289978210089F8FB /* ContentView.swift */,
+				382EEF87289978230089F8FB /* Assets.xcassets */,
+				382EEF89289978230089F8FB /* Preview Content */,
 			);
-			path = macOS;
+			path = "DAY2-CW22";
+			sourceTree = "<group>";
+		};
+		382EEF89289978230089F8FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				382EEF8A289978230089F8FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		382EEF432895EEC60089F8FB /* TOOMA1 (iOS) */ = {
+		382EEF7F289978210089F8FB /* DAY2-CW22 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 382EEF552895EEC60089F8FB /* Build configuration list for PBXNativeTarget "TOOMA1 (iOS)" */;
+			buildConfigurationList = 382EEF8E289978230089F8FB /* Build configuration list for PBXNativeTarget "DAY2-CW22" */;
 			buildPhases = (
-				382EEF402895EEC60089F8FB /* Sources */,
-				382EEF412895EEC60089F8FB /* Frameworks */,
-				382EEF422895EEC60089F8FB /* Resources */,
+				382EEF7C289978210089F8FB /* Sources */,
+				382EEF7D289978210089F8FB /* Frameworks */,
+				382EEF7E289978210089F8FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "TOOMA1 (iOS)";
-			productName = "TOOMA1 (iOS)";
-			productReference = 382EEF442895EEC60089F8FB /* TOOMA1.app */;
-			productType = "com.apple.product-type.application";
-		};
-		382EEF492895EEC60089F8FB /* TOOMA1 (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 382EEF582895EEC60089F8FB /* Build configuration list for PBXNativeTarget "TOOMA1 (macOS)" */;
-			buildPhases = (
-				382EEF462895EEC60089F8FB /* Sources */,
-				382EEF472895EEC60089F8FB /* Frameworks */,
-				382EEF482895EEC60089F8FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TOOMA1 (macOS)";
-			productName = "TOOMA1 (macOS)";
-			productReference = 382EEF4A2895EEC60089F8FB /* TOOMA1.app */;
+			name = "DAY2-CW22";
+			productName = "DAY2-CW22";
+			productReference = 382EEF80289978210089F8FB /* DAY2-CW22.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		382EEF382895EEC40089F8FB /* Project object */ = {
+		382EEF78289978210089F8FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					382EEF432895EEC60089F8FB = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					382EEF492895EEC60089F8FB = {
+					382EEF7F289978210089F8FB = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 382EEF3B2895EEC40089F8FB /* Build configuration list for PBXProject "TOOMA1" */;
+			buildConfigurationList = 382EEF7B289978210089F8FB /* Build configuration list for PBXProject "DAY2-CW22" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,60 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 382EEF372895EEC40089F8FB;
-			productRefGroup = 382EEF452895EEC60089F8FB /* Products */;
+			mainGroup = 382EEF77289978210089F8FB;
+			productRefGroup = 382EEF81289978210089F8FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				382EEF432895EEC60089F8FB /* TOOMA1 (iOS) */,
-				382EEF492895EEC60089F8FB /* TOOMA1 (macOS) */,
+				382EEF7F289978210089F8FB /* DAY2-CW22 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		382EEF422895EEC60089F8FB /* Resources */ = {
+		382EEF7E289978210089F8FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382EEF512895EEC60089F8FB /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		382EEF482895EEC60089F8FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				382EEF522895EEC60089F8FB /* Assets.xcassets in Resources */,
+				382EEF8B289978230089F8FB /* Preview Assets.xcassets in Resources */,
+				382EEF88289978230089F8FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		382EEF402895EEC60089F8FB /* Sources */ = {
+		382EEF7C289978210089F8FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382EEF4F2895EEC60089F8FB /* ContentView.swift in Sources */,
-				382EEF4D2895EEC60089F8FB /* TOOMA1App.swift in Sources */,
-				382EEF5C289719DD0089F8FB /* CW2.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		382EEF462895EEC60089F8FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				382EEF502895EEC60089F8FB /* ContentView.swift in Sources */,
-				382EEF4E2895EEC60089F8FB /* TOOMA1App.swift in Sources */,
+				382EEF86289978210089F8FB /* ContentView.swift in Sources */,
+				382EEF84289978210089F8FB /* DAY2_CW22App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		382EEF532895EEC60089F8FB /* Debug */ = {
+		382EEF8C289978230089F8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,15 +195,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		382EEF542895EEC60089F8FB /* Release */ = {
+		382EEF8D289978230089F8FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,155 +249,96 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		382EEF562895EEC60089F8FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.TOOMA1911.TOOMA1;
-				PRODUCT_NAME = TOOMA1;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		382EEF572895EEC60089F8FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.TOOMA1911.TOOMA1;
-				PRODUCT_NAME = TOOMA1;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		382EEF592895EEC60089F8FB /* Debug */ = {
+		382EEF8F289978230089F8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAY2-CW22/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.TOOMA1911.TOOMA1;
-				PRODUCT_NAME = TOOMA1;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TOOMA1911.DAY2-CW22";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		382EEF5A2895EEC60089F8FB /* Release */ = {
+		382EEF90289978230089F8FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAY2-CW22/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.TOOMA1911.TOOMA1;
-				PRODUCT_NAME = TOOMA1;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TOOMA1911.DAY2-CW22";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		382EEF3B2895EEC40089F8FB /* Build configuration list for PBXProject "TOOMA1" */ = {
+		382EEF7B289978210089F8FB /* Build configuration list for PBXProject "DAY2-CW22" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				382EEF532895EEC60089F8FB /* Debug */,
-				382EEF542895EEC60089F8FB /* Release */,
+				382EEF8C289978230089F8FB /* Debug */,
+				382EEF8D289978230089F8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		382EEF552895EEC60089F8FB /* Build configuration list for PBXNativeTarget "TOOMA1 (iOS)" */ = {
+		382EEF8E289978230089F8FB /* Build configuration list for PBXNativeTarget "DAY2-CW22" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				382EEF562895EEC60089F8FB /* Debug */,
-				382EEF572895EEC60089F8FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		382EEF582895EEC60089F8FB /* Build configuration list for PBXNativeTarget "TOOMA1 (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				382EEF592895EEC60089F8FB /* Debug */,
-				382EEF5A2895EEC60089F8FB /* Release */,
+				382EEF8F289978230089F8FB /* Debug */,
+				382EEF90289978230089F8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 382EEF382895EEC40089F8FB /* Project object */;
+	rootObject = 382EEF78289978210089F8FB /* Project object */;
 }
