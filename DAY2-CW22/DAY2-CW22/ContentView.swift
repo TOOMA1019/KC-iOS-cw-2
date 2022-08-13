@@ -16,13 +16,14 @@ struct ContentView: View {
             VStack{
                 HStack{
                     Image(systemName: "cube.fill")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.black)
                     Spacer()
                     Text("العاصمة")
-                        .foregroundColor(Color.white)
+                        .font(.headline)
+                        .foregroundColor(Color.black)
                     Spacer()
                     Image(systemName: "gearshape.fill")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.black)
                     
                   .padding()
             
@@ -33,39 +34,113 @@ struct ContentView: View {
                         Text("21:28")
                             .font(.system(size:80, weight:.medium, design:.serif)
                             )
-                            .foregroundColor(Color.white)
+                            .foregroundColor(Color.black)
                         Text("31")
                             .font(.title2)
                             .padding(.top,40)
-                            .foregroundColor(Color.white)
+                            .foregroundColor(Color.black)
                         Image(systemName:" chevron.left")
-                            .foregroundColor(Color.red)
+                            .foregroundColor(Color.black)
 
                     }
                 Text("باقي على الاذان")
-                    .foregroundColor(Color.white)
+                    .font(.headline)
+                    .foregroundColor(Color.black)
                 
                 VStack{
                 HStack{
                     Image(systemName:"chevron.left")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.black)
                     Spacer()
                     Text("٢١ فبراير - ٢٠ رجب")
-                        .foregroundColor(Color.white)
+                        .font(.headline)
+                        .foregroundColor(Color.black)
                     Spacer()
                     Image(systemName:"chevron.right")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.black)
                         .padding()
-                    Divider()
-                }.background(.white.opacity(0.4))
-                    Text("الفجر")
+                   
+                 }
+                    HStack {
+                        Text("الفجر")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
                         Spacer()
-                    Text("3:37 AM")
-                    Text("الشروق")
-                    Text("5:04 AM")
-                    
+                        Text("3:37 AM")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        
+                            .padding()
+                    }
+                    HStack {
+                        Text("الشروق")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        Spacer()
+                        Text("5:04 AM")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        
+                            .padding()
+                    }
+                    HStack {
+                        Text("الظهر")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        Spacer()
+                        Text("11:45 AM")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        
+                            .padding()
+                    }
+                    HStack {
+                        Text("العصر")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        Spacer()
+                        Text("3:21 PM")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        
+                            .padding()
+                    }
+                    HStack {
+                        Text("المغرب")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        Spacer()
+                        Text("6:25 pm")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        
+                            .padding()
+                    }
 
-            }
+                    HStack {
+                        Text("العشاء")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                        Spacer()
+                        Text("7:50 PM")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                            .padding()
+                                            }
+                    
+            }.background(.white.opacity(0.4))
             }
         }
     }
